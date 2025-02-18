@@ -18,7 +18,7 @@
 ```sh
 1. [NextJS](https://nextjs.org/) 
 2. npx create-next-app@latest --empty
-![alt text](image.png)
+![alt text](./image.png)
 3. cd web
 4. npm run dev
 5. [Localhost](http://localhost:3000)
