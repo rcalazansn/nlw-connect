@@ -53,6 +53,7 @@
     3.2 "editor.codeActionsOnSave"
         3.2.1 "source.fixAll.biome": "explicit"
         3.2.2 "source.organizeImports.biome": "explicit"
+        3.2.3 "editor.formatOnSave": true
 ```
 
 
