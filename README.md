@@ -4,6 +4,9 @@
 
 #### Getting Started
 
+[nlw-connect-devstage](https://www.figma.com/community/file/1471119935944492720/nlw-connect-devstage) 
+
+
 ######  Preparação
 ```sh
 1. [NodeJS](https://nodejs.org/pt/) 
@@ -12,6 +15,8 @@
     3.1 Omni Theme
     3.2 symbols
     3.3 Tailwind CSS IntelliSense
+    3.4 PostCSS Language Support
+    3.5 Biome
 ```
 
 ######  Iniciando Projeto
@@ -23,6 +28,7 @@
 4. npm run dev
 5. [Localhost](http://localhost:3000)
 ```
+
 ######  Instalando tailwindcss
 ```sh
 1. [tailwindcss](https://tailwindcss.com/docs/installation/framework-guides/nextjs) 
@@ -31,6 +37,31 @@
 4. criar arquivo `globals.css` na pasta src\app
 5. importar dentro do arquivo layout.tsx `import './globals.css'`
 ```
+######  Instalando pacotes
+```sh
+1. npm install lucide-react
+2. npm i @biomejs/biome -D
+```
+
+######  Configurando biome
+```sh
+1. npx @biomejs/biome init
+2. configurar arquivo `biome.json`
+3. setar configurações para o projeto `Preference: Open Workspace Settings (JSON)`
+    3.1 [Config-VSCode](https://biomejs.dev/reference/vscode/) 
+        3.1.1 javascript, typescript e typescriptreact 
+    3.2 "editor.codeActionsOnSave"
+        3.2.1 "source.fixAll.biome": "explicit"
+        3.2.2 "source.organizeImports.biome": "explicit"
+```
+
+
+######  Seeting.json (VSCode)
+```sh
+    "terminal.integrated.fontSize": 14,
+    "explorer.compactFolders": false
+```
+
 
 #### About
 
