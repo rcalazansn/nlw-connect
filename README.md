@@ -57,6 +57,12 @@
 ```
 
 
+
+######  Instalando tailwind-merge
+```sh
+1. npm i tailwind-merge
+```
+
 ######  Seeting.json (VSCode)
 ```sh
     "terminal.integrated.fontSize": 14,
