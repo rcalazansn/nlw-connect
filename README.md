@@ -56,11 +56,17 @@
         3.2.3 "editor.formatOnSave": true
 ```
 
-
-
 ######  Instalando tailwind-merge
 ```sh
 1. npm i tailwind-merge
+```
+
+
+######  Instalando pacotes de para validação
+```sh
+1. npm i react-hook-form
+2. npm i zod 
+3. npm i @hookform/resolvers
 ```
 
 ######  Seeting.json (VSCode)
@@ -68,7 +74,6 @@
     "terminal.integrated.fontSize": 14,
     "explorer.compactFolders": false
 ```
-
 
 #### About
 
