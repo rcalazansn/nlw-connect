@@ -61,12 +61,19 @@
 1. npm i tailwind-merge
 ```
 
-
 ######  Instalando pacotes de para validação
 ```sh
 1. npm i react-hook-form
 2. npm i zod 
 3. npm i @hookform/resolvers
+```
+
+######  Instalando pacotes orval (requisição http)
+```sh
+1. npm i orval -D
+2. criar arquivo na raiz do projeto orval.config.ts
+3. preecher aquivo de configuração
+4. npx orval
 ```
 
 ######  Seeting.json (VSCode)
